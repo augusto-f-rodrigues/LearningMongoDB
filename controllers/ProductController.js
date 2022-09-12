@@ -10,7 +10,7 @@ module.exports = class ProductController{
     res.render('products/create')
   }
 
-  static createProductPost (req, res){
+  static createProductPost(req, res){
     const name = req.body.name
     const image = req.body.image
     const price = req.body.price
@@ -21,6 +21,13 @@ module.exports = class ProductController{
     product.save()
 
     res.redirect('/products')
+  }
+
+  static async getProductById(req, res){
+    const id = req.params.id
+    const product = await Products.getOneProduct(id)
+
+    res.render('products/product', product)
   }
 }
 

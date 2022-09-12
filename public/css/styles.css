@@ -104,3 +104,11 @@ label {
 .product p {
   background-color: inherit;
 }
+
+.actions {
+  background-color: inherit;
+}
+
+.actions a {
+  background-color: inherit;
+}

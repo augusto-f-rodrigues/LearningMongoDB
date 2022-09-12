@@ -5,7 +5,9 @@
     <img src="{{this.image}}" alt="{{this.name}}">
     <h3>{{this.name}}</h3>
     <p>{{this.price}} US</p>
-    <p>{{this.description}}</p>
+     <div class="actions">
+    <a href="/products/{{this._id}}">Details</a>
+  </div>
   </div>
   {{/each}}
 </div>
