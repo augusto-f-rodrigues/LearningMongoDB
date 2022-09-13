@@ -18,4 +18,8 @@ This project have a home page to list all previous created products at the colle
 You can create a product, see the details about them, update the information or delete them from database.
 
 ## Visuals
+### Functionalities:
+![animation](https://user-images.githubusercontent.com/85464318/189784455-9864cf33-dc5b-4d07-b893-40978a4b7e66.gif)
 
+### How data looks like in the database:
+![Captura de tela 2022-09-12 220130](https://user-images.githubusercontent.com/85464318/189784699-2f17fe7d-81d5-47f8-9e95-829fdc087dc2.png)
