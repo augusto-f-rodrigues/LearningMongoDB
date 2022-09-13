@@ -1,11 +1,13 @@
 <h1 class="title">Product: {{this.name}}</h1>
-  <div class="product">
-    <img src="{{this.image}}" alt="{{this.name}}">
-    <h3>{{this.name}}</h3>
-    <p>{{this.price}} US</p>
-    <p>{{this.description}}</p>
-    <div class="actions">
+<div class="product">
+  <img src="{{this.image}}" alt="{{this.name}}" />
+  <h3>{{this.name}}</h3>
+  <p>{{this.price}} US</p>
+  <p>{{this.description}}</p>
+  <div class="actions">
     <a href="/products">Homepage</a>
   </div>
-  </div>
-  
+</div>
+<form action="/products/remove/{{this._id}}" method="post">
+  <input type="submit" value="Delete" class="btn" />
+</form>
